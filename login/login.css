@@ -82,10 +82,20 @@ input[type=text] {
     padding: 14px 20px 14px 20px;
 }
 .forgot_password{
+    text-decoration: none;
     text-align: end;
     margin-bottom: -13px;
 }
 .radio{
     max-width: 221px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.dont_have_acc{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.create_acc_btn{
+    text-decoration: none;
+    color: #0000EE;
 }
