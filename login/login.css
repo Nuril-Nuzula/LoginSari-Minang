@@ -83,7 +83,9 @@ input[type=text] {
 }
 .forgot_password{
     text-align: end;
+    margin-bottom: -13px;
 }
-.radio_accept{
+.radio{
     max-width: 221px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
