@@ -87,7 +87,3 @@ input[type=text] {
 .radio_accept{
     max-width: 221px;
 }
-.grid_radio{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
