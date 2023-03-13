@@ -35,6 +35,9 @@
 }
 .grid_text_login{
     display: grid;
+    height: fit-content;
+    width: fit-content;
+    background-color: aqua;
 }
 .text_login{
     text-align: center;
@@ -77,4 +80,14 @@ input[type=text] {
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 14px 20px 14px 20px;
+}
+.forgot_password{
+    text-align: end;
+}
+.radio_accept{
+    max-width: 221px;
+}
+.grid_radio{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
