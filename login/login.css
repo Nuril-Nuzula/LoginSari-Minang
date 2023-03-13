@@ -58,6 +58,9 @@ input[type=text] {
     padding: 12px 20px;
     margin: 15px 0;
     box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #CECECE;
     border-radius: 5px;
 }
 .password_form{
@@ -66,6 +69,9 @@ input[type=text] {
     padding: 12px 20px;
     margin: 10px 0;
     box-sizing: border-box;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #CECECE;
     border-radius: 5px;
 }
 .btn_login{
@@ -74,9 +80,10 @@ input[type=text] {
     border: 0px;
     margin-top: 15px;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 800;
     background-color: #FFD026;
-    background-image: url('searchicon.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 14px 20px 14px 20px;
