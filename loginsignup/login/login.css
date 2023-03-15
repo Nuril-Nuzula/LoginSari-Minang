@@ -62,7 +62,10 @@
         display: none;
     }
     .login{
-
+        margin-top: -70rem;
+        margin-left: -2rem;
+        width: 430px;
+        color: #CECECE;
     }
     .text_login{
 
