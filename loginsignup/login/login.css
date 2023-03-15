@@ -47,7 +47,20 @@
     margin-bottom: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
-@media screen and (max-width:420px) {}
+@media screen and (max-width:420px) {
+    .grid_login{
+        position: sticky;
+    }
+    .gambar_login{
+        display: none;
+    }
+    .bg_hp{
+        display: block;
+    }
+    .login_words{
+        display: none;
+    }
+}
 
 input[type=text] {
     width: 100%;
