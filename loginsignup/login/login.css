@@ -49,7 +49,7 @@
 }
 @media screen and (max-width:420px) {
     .grid_login{
-        position: sticky;
+        grid-template-columns: repeat(1, 1fr);
     }
     .gambar_login{
         display: none;
@@ -60,14 +60,18 @@
     .login_words{
         display: none;
     }
+    .login{
+        margin-top: -70rem;
+        margin-left: -2rem;
+    }
 }
 
-input[type=text] {
+/* input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-}
+} */
 .username_form{
     /* height: 35px; */
     width: 350px;
