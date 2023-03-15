@@ -49,7 +49,36 @@
 }
 
 @media screen and (max-width:414px) {
-    
+    .grid_login{
+
+    }
+    .gambar_login{
+
+    }
+    .bg_hp{
+
+    }
+    .login_words{
+
+    }
+    .login{
+
+    }
+    .text_login{
+
+    }
+    .radio{
+
+    }
+    .forgot_password{
+
+    }
+    .dont_have_acc{
+
+    }
+    .username_form{
+
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -150,3 +179,34 @@
     text-decoration: none;
     color: #0000EE;
 }
+/* 
+.grid_login{
+
+}
+.gambar_login{
+
+}
+.bg_hp{
+
+}
+.login_words{
+
+}
+.login{
+
+}
+.text_login{
+
+}
+.radio{
+
+}
+.forgot_password{
+
+}
+.dont_have_acc{
+
+}
+.username_form{
+    
+} */
