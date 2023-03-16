@@ -70,10 +70,10 @@
         color: #CECECE;
     }
     .text_login{
-
+        font-size: 40px;
     }
     .radio{
-
+        font-size: 12px;
     }
     .forgot_password{
         margin-top: -25px;
@@ -105,12 +105,6 @@
         margin-left: -1.7rem;
         width: 430px;
         color: #CECECE;
-    }
-    .text_login{
-        font-size: 40px;
-    }
-    .radio{
-        font-size: 12px;
     }
     .forgot_password{
         font-size: 12px;
