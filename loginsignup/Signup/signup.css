@@ -22,12 +22,12 @@
 }
 .text{
     font-size: 50px;
-    max-width: 700vw;
+    max-width: 40vw;
 }
 .p{
     margin-top: 10px;
     font-size:20px;
-    max-width: 700vw;
+    max-width: 50vw;
     z-index: 99;
     line-height: 27px;
 }
@@ -64,7 +64,7 @@
     .signup{
         margin-top: -70rem;
         margin-left: -0.5rem;
-        width: 430vw;
+        width: 430px;
         color: #CECECE;
     }
     .text_signup{
@@ -78,10 +78,10 @@
     }
     .dont_have_acc{
         font-size: 13px;
-        width: 200vw;
+        width: 200px;
     }
     .username_form{
-        width: 100vw;
+        width: 100px;
     }
 }
 
@@ -130,7 +130,7 @@
 } */
 .username_form{
     /* height: 35px; */
-    width: 100vw;
+    width: 18vw;
     background-color: #FEF0BD;
     padding: 12px 20px;
     margin: 5px 0;
@@ -141,7 +141,7 @@
     border-radius: 5px;
 }
 .password_form{
-    width: 100vw;
+    width: 18vw;
     background-color: #FEF0BD;
     padding: 12px 20px;
     margin: 0 0;
@@ -152,7 +152,7 @@
     border-radius: 5px;
 }
 .btn_signup{
-    width: 100vw;
+    width: 18vw;
     box-sizing: border-box;
     border: 0px;
     margin-top: 15px;
@@ -171,11 +171,11 @@
     margin-bottom: -13px;
 }
 .radio{
-    max-width: 221vw;
+    max-width: 15vw;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 .dont_have_acc{
-    width: 300vw;
+    width: 18vw;
     text-align: center;
     margin-top: 10px;
 }
