@@ -1,19 +1,19 @@
 *{
     margin: 0;
 }
-.grid_login{
+.grid_signup{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     position: fixed;
 }
-.gambar_login{
+.gambar_signup{
     height: auto;
     margin: 0;
 }
 .bg_hp{
     display: none;
 }
-.login_words{
+.signup_words{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     margin-top: -275px;
     margin-left: 75px;
@@ -30,12 +30,12 @@
     z-index: 99;
     line-height: 27px;
 }
-.login{
+.signup{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.grid_text_login{
+.grid_text_signup{
     display: grid;
     height: fit-content;
     width: fit-content;
@@ -48,19 +48,19 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 @media screen and (max-width:375px) {
-    .grid_login{
+    .grid_signup{
         grid-template-columns: repeat(1, 1fr);
     }
-    .gambar_login{
+    .gambar_signup{
         display: none;
     }
     .bg_hp{
         display: block;
     }
-    .login_words{
+    .signup_words{
         display: none;
     }
-    .login{
+    .signup{
         margin-top: -70rem;
         margin-left: -2rem;
         width: 430px;
