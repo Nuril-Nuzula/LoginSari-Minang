@@ -65,7 +65,7 @@
     }
     .login{
         margin-top: -70rem;
-        margin-left: -2rem;
+        margin-left: -0.5rem;
         width: 430px;
         color: #CECECE;
     }
@@ -76,13 +76,14 @@
 
     }
     .forgot_password{
-
+        margin-top: -25px;
     }
     .dont_have_acc{
-
+        font-size: 13px;
+        width: 200px;
     }
     .username_form{
-
+        width: 100px;
     }
 }
 
@@ -101,7 +102,7 @@
     }
     .login{
         margin-top: -70rem;
-        margin-left: -2rem;
+        margin-left: -1.7rem;
         width: 430px;
         color: #CECECE;
     }
@@ -177,7 +178,8 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 .dont_have_acc{
-    width: 300px;
+    text-align: center;
+    width: 350px;
     text-align: center;
     margin-top: 10px;
 }
