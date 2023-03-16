@@ -48,6 +48,43 @@
     margin-bottom: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
+@media screen and (max-width:414px) {
+    .grid_signup{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .gambar_signup{
+        display: none;
+    }
+    .bg_hp{
+        display: block;
+    }
+    .signup_words{
+        display: none;
+    }
+    .signup{
+        margin-top: -70rem;
+        margin-left: -0.5rem;
+        width: 430px;
+        color: #CECECE;
+    }
+    .text_signup{
+        font-size: 40px;
+    }
+    .radio{
+        font-size: 12px;
+    }
+    .forgot_password{
+        margin-top: -25px;
+    }
+    .dont_have_acc{
+        font-size: 13px;
+        width: 200px;
+    }
+    .username_form{
+        width: 100px;
+    }
+}
+
 @media screen and (max-width:375px) {
     .grid_signup{
         grid-template-columns: repeat(1, 1fr);
@@ -96,7 +133,7 @@
     width: 100%;
     background-color: #FEF0BD;
     padding: 12px 20px;
-    margin: 15px 0;
+    margin: 5px 0;
     box-sizing: border-box;
     border-width: 2px;
     border-style: solid;
@@ -107,7 +144,7 @@
     width: 100%;
     background-color: #FEF0BD;
     padding: 12px 20px;
-    margin: 10px 0;
+    margin: 0 0;
     box-sizing: border-box;
     border-style: solid;
     border-width: 2px;
